@@ -1,0 +1,224 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    display: flex;
+    position: relative;
+  }
+  .wrapper .sidebar {
+    width: 200px;
+    height: 100%;
+    background: #1E3B7E;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  
+  .wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .wrapper .sidebar ul li a {
+    color: #bdb8d7;
+    display: block;
+  }
+  
+  .wrapper .sidebar ul li a .fas {
+    width: 25px;
+  }
+  
+  .wrapper .sidebar ul li:hover {
+    background-color: #594f8d;
+  }
+  
+  .wrapper .sidebar ul li:hover a {
+    color: #fff;
+  }
+  
+  .wrapper .sidebar .social_media {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .wrapper .sidebar .social_media a {
+    display: block;
+    width: 40px;
+    background: #1E3B7E;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .wrapper .main_content {
+    width: calc(100% - 200px); /* Adjusted width to accommodate sidebar */
+    margin-left: 50px;
+    padding: 20px; /* Added padding */
+  }
+  
+  .wrapper .main_content .header {
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+  }
+  
+  .wrapper .main_content .info {
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+  }
+  
+  .wrapper .main_content .info div {
+    margin-bottom: 20px;
+  }
+  
+  
+  .main_content {
+    margin-top: 20px;
+  }
+  
+  header, main {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  
+  input[type="text"], input[type="date"], input[type="number"], select {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h1, h3 {
+    color: #333;
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  legend {
+    padding: 0 10px;
+    color: #5a5a5a;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0 5px;
+  }
+  
+  .remarks_content {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .remarks label, .remarks input[type="text"] {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .inline-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .inline-container label {
+    margin: 0;
+  }
+  
+  .checkbox-group,
+  .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .checkbox-group label,
+  .radio-group label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .inline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin-bottom: 15px;
+  }
+  
+  .inline-container > div {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    margin-top: 10px;
+  }
+  
+  .inline-container input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .inline-container label {
+    margin-right: 15px;
+  }
